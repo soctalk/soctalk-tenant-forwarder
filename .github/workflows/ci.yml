@@ -10,8 +10,8 @@ name: CI
 #   - workflow_dispatch    → manual button
 #   - pull_request         → runs checks only (no publish)
 #
-# A chart-publish job will be added once chart/Chart.yaml + templates
-# are populated.
+# DEPRECATED: this component is superseded by soctalk-adapter (see
+# README). No Helm chart is published — it is not standalone-deployed.
 
 on:
   push:
